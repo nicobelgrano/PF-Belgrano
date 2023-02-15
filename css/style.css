@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box!important;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -24,7 +24,7 @@ body{
 }
 
 html, body{
-    overflow-x: hidden!important;
+    overflow-x: hidden;
 }
 
 header{
@@ -36,7 +36,7 @@ header{
 }
 
 .navblack{
-    background: rgba(0, 0, 0, 0.9)!important;
+    background: transparent!important;
     padding: 0;
     margin: 0;
 }
