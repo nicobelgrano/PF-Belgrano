@@ -1,0 +1,31 @@
+/*** FLYERS ***/
+
+.contentflyers {
+	display: grid;
+	width: 100%;
+	height: auto;
+	padding-inline: 5rem;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.flyer {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	border-radius: 3rem;
+}
+.cart {
+	display: flex;
+	margin: 2%;
+	width: 70%;
+	justify-self: center;
+	border: 0px solid rgba(255, 255, 255, 0);
+	border-radius: 30%;
+	transition: 1s !important;
+	&:hover {
+		border-radius: 2rem;
+		border: 1px solid white;
+		border-radius: 3rem;
+		transition: .2s;
+		cursor: pointer;
+	}
+}

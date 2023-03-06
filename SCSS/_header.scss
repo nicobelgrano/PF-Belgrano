@@ -1,0 +1,38 @@
+/*** HEADER ***/
+
+header {
+	justify-content: center;
+	color: $color_1;
+	text-align: center;
+	padding: 2rem;
+	background: rgba(0, 0, 0, 0.9);
+}
+.navblack {
+	background: transparent !important;
+	padding: 0;
+	margin: 0;
+}
+nav {
+	ul {
+		display: flex;
+		list-style-type: none;
+		justify-content: center;
+	}
+}
+.nav-link {
+	@include anclas;
+	color: $color_2;
+	font-size: 1.2rem;
+	font-weight: 200;
+	margin-inline: 3rem;
+	transition: .4s;
+}
+.navlink {
+	&:hover {
+		color: $color_1;
+		transition: .2s;
+	}
+}
+.active {
+	color: $color_1;
+}

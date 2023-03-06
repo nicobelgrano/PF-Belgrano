@@ -1,0 +1,60 @@
+/*** INICIO ***/
+
+.content {
+	display: flex;
+	justify-content: space-around;
+	padding-inline: 5rem;
+	margin-block: 2rem;
+}
+.foto {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	margin: auto;
+	img {
+		width: 50vh;
+		height: auto;
+		border-radius: 4rem;
+		border: 0px rgba(255, 255, 255, 0) solid;
+		border-radius: 2rem;
+		transition: 1s;
+		&:hover {
+			border-radius: 4rem;
+			transition: .2s;
+		}
+	}
+}
+.tarjeta {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	transition: .2s;
+	border: rgba(255, 255, 255, 0) solid 1px;
+	border-radius: 30%;
+	transition: 1s !important;
+	h4 {
+		padding-inline: 2rem;
+		margin-bottom: 1rem;
+		font-size: 2rem;
+		font-weight: 300;
+	}
+	p {
+		font-size: 1.5rem;
+		font-weight: 200;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+		line-height: 2.5rem;
+	}
+	&:hover {
+		border: rgba(255, 255, 255, 0.95) solid 1px;
+		border-radius: 4rem;
+		transition: .2s;
+	}
+}
+p {
+	padding-inline: 2rem;
+	margin-bottom: 1rem;
+}
