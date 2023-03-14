@@ -4,12 +4,11 @@ header {
 	justify-content: center;
 	color: $color_1;
 	text-align: center;
-	padding: 2rem;
 	background: rgba(0, 0, 0, 0.9);
 }
 .navblack {
 	background: transparent !important;
-	padding: 0;
+	padding: 1.5rem;
 	margin: 0;
 }
 nav {
@@ -19,20 +18,31 @@ nav {
 		justify-content: center;
 	}
 }
+
 .nav-link {
 	@include anclas;
 	color: $color_2;
 	font-size: 1.2rem;
 	font-weight: 200;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	display: inline-block;
 	margin-inline: 3rem;
 	transition: .4s;
-}
-.navlink {
+
 	&:hover {
 		color: $color_1;
-		transition: .2s;
 	}
 }
+
+
+.nav-item{
+	min-width: 10rem;
+	text-align: center;
+}
+
+
 .active {
 	color: $color_1;
+    transition: 0.2s;
 }

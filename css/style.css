@@ -78,11 +78,14 @@ nav ul {
 
 .navlink:hover {
   color: white;
+  border-bottom: 1px solid white;
+  border: 2px;
   transition: 0.2s;
 }
 
 .active {
   color: white;
+  border-bottom: 2px solid white;
 }
 
 /*** INICIO ***/
