@@ -4,15 +4,13 @@
 	.contentflyers {
 		grid-template-columns: 1fr 1fr;
 	}
-}
-@media (max-width: 1200px) {
-	.contentflyers {
-		padding-inline: 1rem;
-	}
-	.cart {
-		width: 80%;
+	.foto{
+		img{
+			width: 70vh;
+		}
 	}
 }
+
 @media (max-width: 1263px) {
 	.content {
 		flex-direction: column;
@@ -24,6 +22,21 @@
 	}
 	.tarjeta {
 		width: 100%;
+	}
+
+	.foto{
+		img{
+			width: 55vh;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.contentflyers {
+		padding-inline: 1rem;
+	}
+	.cart {
+		width: 80%;
 	}
 }
 @media (max-width: 992px) {
@@ -56,6 +69,12 @@
 		width: 70%;
 		padding-inline: 1rem;
 	}
+
+	.btn-close{
+		display: unset;
+	}
+
+	
 
 }
 @media (max-width: 576px) {

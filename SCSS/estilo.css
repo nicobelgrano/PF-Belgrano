@@ -225,6 +225,10 @@ p {
   cursor: pointer;
 }
 
+.btn-close {
+  display: none;
+}
+
 /*** PROXIMAS FECHAS ***/
 .fechas {
   display: flex;
@@ -376,13 +380,8 @@ p {
   .contentflyers {
     grid-template-columns: 1fr 1fr;
   }
-}
-@media (max-width: 1200px) {
-  .contentflyers {
-    padding-inline: 1rem;
-  }
-  .cart {
-    width: 80%;
+  .foto img {
+    width: 70vh;
   }
 }
 @media (max-width: 1263px) {
@@ -396,6 +395,17 @@ p {
   }
   .tarjeta {
     width: 100%;
+  }
+  .foto img {
+    width: 55vh;
+  }
+}
+@media (max-width: 1200px) {
+  .contentflyers {
+    padding-inline: 1rem;
+  }
+  .cart {
+    width: 80%;
   }
 }
 @media (max-width: 992px) {
@@ -425,6 +435,9 @@ p {
   .foto {
     width: 70%;
     padding-inline: 1rem;
+  }
+  .btn-close {
+    display: unset;
   }
 }
 @media (max-width: 576px) {
