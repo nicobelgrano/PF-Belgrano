@@ -25,13 +25,15 @@ nav {
 	font-size: 1.2rem;
 	font-weight: 200;
 	text-transform: uppercase;
-	border-bottom: 2px solid transparent;
 	display: inline-block;
 	margin-inline: 3rem;
+	padding: 5px;
 	transition: .4s;
+	border-bottom: 1px solid transparent;
 
 	&:hover {
 		color: $color_1;
+		border-bottom: 1px solid $color_4;
 	}
 }
 
@@ -44,5 +46,7 @@ nav {
 
 .active {
 	color: $color_1;
+	border-bottom: 1px solid $color_4;
     transition: 0.2s;
+	
 }

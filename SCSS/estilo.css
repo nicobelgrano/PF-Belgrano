@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
-  background-image: url(../elements/rangarajan-ragunathan-UhjyM5P_dz4-unsplash.jpg);
+  background-image: url(../elements/fondo.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -37,20 +37,19 @@ html {
 
 .titulo {
   text-align: center;
-  margin: 1rem;
+  margin: 48px;
 }
 
 h1 {
+  display: inline-block;
   font-size: 2.5rem;
-  font-weight: 300;
-  margin-block: 2rem;
-  transition: 0.2s;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 200;
-  margin: 2rem;
+  font-weight: 300;
 }
 
 h3 {
@@ -85,13 +84,15 @@ nav ul {
   font-size: 1.2rem;
   font-weight: 200;
   text-transform: uppercase;
-  border-bottom: 2px solid transparent;
   display: inline-block;
   margin-inline: 3rem;
+  padding: 5px;
   transition: 0.4s;
+  border-bottom: 1px solid transparent;
 }
 .nav-link:hover {
   color: white;
+  border-bottom: 1px solid rgb(35, 171, 255);
 }
 
 .nav-item {
@@ -101,6 +102,7 @@ nav ul {
 
 .active {
   color: white;
+  border-bottom: 1px solid rgb(35, 171, 255);
   transition: 0.2s;
 }
 
@@ -110,6 +112,7 @@ nav ul {
   justify-content: space-around;
   align-items: start;
   padding-inline: 5rem;
+  margin-block: 80px;
 }
 
 .foto {
@@ -134,18 +137,18 @@ nav ul {
 .tarjeta {
   display: flex;
   flex-direction: column;
+  flex: 1;
   width: 50%;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  margin-top: 2rem;
+  padding-block: 1rem;
+  gap: 32px;
   border: rgba(255, 255, 255, 0) solid 1px;
   border-radius: 30%;
   transition: 1s !important;
 }
 .tarjeta h4 {
   padding-inline: 2rem;
-  margin-bottom: 2rem;
   font-size: 2rem;
   font-weight: 300;
 }
@@ -155,16 +158,12 @@ nav ul {
   letter-spacing: 1px;
   word-spacing: 1px;
   line-height: 2.5rem;
+  padding-inline: 32px;
 }
 .tarjeta:hover {
   border: rgba(255, 255, 255, 0.95) solid 1px;
   border-radius: 4rem;
   transition: 0.2s;
-}
-
-p {
-  padding-inline: 2rem;
-  margin-bottom: 1rem;
 }
 
 /*** MUSICA ***/
@@ -254,8 +253,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
-  padding-top: 2rem;
+  margin-top: 32px;
+  padding-top: 32px;
   border-radius: 2rem;
   border: 1px white solid;
   transition: 1s;

@@ -14,7 +14,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: $background-color_1;
-	background-image: url(../elements/rangarajan-ragunathan-UhjyM5P_dz4-unsplash.jpg);
+	background-image: url(../elements/fondo.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -31,19 +31,18 @@ html {
 
 .titulo {
 	text-align: center;
-	margin: 1rem;
+	margin: 48px;
 }
 h1 {
+	display: inline-block;
 	font-size: 2.5rem;
-	font-weight: 300;
-	margin-block: 2rem;
-	transition: .2s;
+	font-weight: 700;
+	letter-spacing: 2px;
 }
 
 h2 {
 	font-size: 2.5rem;
-	font-weight: 200;
-	margin: 2rem;
+	font-weight: 300;
 }
 
 h3 {
